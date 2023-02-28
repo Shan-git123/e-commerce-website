@@ -3,7 +3,7 @@ import { FaCheck, FaTruck , FaExchangeAlt, FaPhoneVolume} from "react-icons/fa";
 
 
 
-const Feature_Area = () => {
+const FeatureArea = () => {
   return (
     <div className="feature_area">
         <div className="features ">
@@ -26,4 +26,4 @@ const Feature_Area = () => {
   )
 }
 
-export default Feature_Area
+export default FeatureArea
