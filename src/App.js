@@ -5,7 +5,7 @@ import Cart from "./Cart";
 import Navbar from "./Navbar";
 import Contact from "./Contact";
 import { ShopContextProvider } from "./ShopContextProvider";
-import Footer from "./Footer";
+
 
 function App() {
   return (
