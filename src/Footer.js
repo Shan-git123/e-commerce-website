@@ -6,7 +6,7 @@ const Footer = () => {
     <div className=" footer">
       <div className="copyright" >
         <p>	<FaCopyright /> The E comm. All rights reserved. Designed by  Shahin Qureshi</p>
-        <img src="./images/payment.jpg" alt="image"/>  
+        <img src="./images/payment.jpg" alt="footer"/>  
       </div>
     </div>
     

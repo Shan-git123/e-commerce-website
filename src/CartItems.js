@@ -8,7 +8,7 @@ const CartItems = ({ data }) => {
 
   return (
     <div className="cartItem">
-      <img src={`./images/${img}`} alt="product image" />
+      <img src={`./images/${img}`} alt="product" />
 
       <div className="description">
         <p className="product_heading">

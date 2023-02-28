@@ -10,7 +10,7 @@ const Product = ({ data }) => {
 
   return (
     <div className="product">
-      <img src={`./images/${img}`} alt="product image" />
+      <img src={`./images/${img}`} alt="product " />
 
       <div className="description">
         <p>

@@ -20,6 +20,7 @@ export const ShopContextProvider = (props) => {
       }
       setCartItems(cart);
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [productList]);
 
   const getProductList = async () => {
