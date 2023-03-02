@@ -1,13 +1,15 @@
+
 .nav {
   width: 100%;
-  height: 90px;
+ padding: 10px 10px;
   background-color: rgb(19, 19, 19);
 }
 .nav h3 {
   color: white;
   font-size: 25px;
-  padding-top: 0.5rem;
+  padding-top: 0.3rem;
   padding-bottom: 0;
+  /* margin-bottom: 0; */
   padding-left: 3.5rem;
 }
 .links {
@@ -15,11 +17,58 @@
   justify-content: flex-end;
   align-items: center;
   margin-right: 3.5rem;
-  display: flex;
-  align-items: center;
+ 
+  
 }
 .links a {
   color: white;
   margin-left: 3rem;
   font-size: 25px;
+} 
+
+
+
+
+/* .nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 23px 20px;
+  
+  background-color: rgb(19, 19, 19);
 }
+.nav h3 {
+  color: white;
+  font-size: 25px;
+  padding-left: 1.3rem;
+
+}
+.links {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 3.5rem;
+  
+}
+@media screen and (max-width :400px){
+  .nav{
+    display: inline-block;
+    width: 100%;
+  }
+  .nav h3{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .links {
+    width: 100%;
+    margin: 5% auto;
+  }
+}
+.links a {
+  color: white;
+  margin-left: 3rem;
+  font-size: 25px;
+}  */
+
