@@ -179,77 +179,6 @@ a {
   height: 8%;
 }
 
-@media screen and (max-width:500px){
-  .copyright {
-    display: block;
-  }
-  .copyright img{
-    width: 88%;
-    display: block;
-    margin: 15px auto;
-  }
-  .feature_area{
-    padding: 15px 10px;
-    height: auto;
-    display: block;
-  }
-  .nav{
-    width: 100vw;
-  }
-  .nav h3{
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  .shop{
-    width: 100%;
-    padding: 10px 15px;
-  }
-  .products {
-    height: auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-  }
-  .product {
-    width: 300px;
-    height: 400px;
-    margin: 5px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .product img {
-    width: 200px;
-  }
-}
-
-
-
-@media screen and ( max-width : 800px) {
-  .cartItem{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 25px;
-    padding: 20px;
-    width : 500px;
-    height: auto;
-  }
-  .cartItem img {
-    width: 130px;
-  }
-  
-  .cartItem .description {
-    width: 100%;
-    text-align: center;
-    font-size: 20px;
-    
-  }
-  .product_heading{
-    margin-bottom: 18px;
-  }
-}
 
 @media screen and (max-width:1050px){
   .copyright {
@@ -296,6 +225,7 @@ a {
   } 
 }
 
+
 @media screen and (min-width : 700px) and (max-width:1049px){
   .feature_area{
     padding: 15px 10px;
@@ -305,6 +235,85 @@ a {
   }
 }
 
+
+@media screen and ( max-width : 800px) {
+  .cartItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 25px;
+    padding: 20px;
+    width : 500px;
+    height: auto;
+  }
+  .cartItem img {
+    width: 130px;
+  }
+  
+  .cartItem .description {
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    
+  }
+  .product_heading{
+    margin-bottom: 18px;
+  }
+}
+
+
+
+@media screen and (max-width:500px){
+  .copyright {
+    display: block;
+  }
+  .copyright img{
+    width: 88%;
+    display: block;
+    margin: 15px auto;
+  }
+  .feature_area{
+    padding: 15px 10px;
+    height: auto;
+    display: block;
+  }
+  .nav{
+    width: 100vw;
+  }
+  .nav h3{
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .shop{
+    width: 100%;
+    padding: 10px 15px;
+  }
+  .products {
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .product {
+    width: 300px;
+    height: 400px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .product img {
+    width: 200px;
+  }
+  .cartItem{
+   
+    margin: 25px;
+    padding: 15px;
+    width : 350px;
+    height: auto;
+  }
+}
 
 
 
