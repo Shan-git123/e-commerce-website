@@ -1,15 +1,20 @@
-import React, { useEffect, useContext } from "react";
+import React, { useState,  useEffect, useContext } from "react";
 import Product from "./Product";
 import Footer from "./Footer";
 import FeatureArea from "./FeatureArea";
+import Loading from "./Loading";
 import { ShopContext } from "./ShopContextProvider";
 
 const Shop = () => {
   const { productList, getProductList } = useContext(ShopContext);
+  const [isLoading, setIsLoading] = useState(true);
+
 
   useEffect(() => {
     getProductList();
+    setIsLoading(false);
     // eslint-disable-next-line react-hooks/exhaustive-deps
+   
   }, []) 
 
   return (
@@ -20,9 +25,10 @@ const Shop = () => {
         </div>
 
         <div className="products">
-          {productList.map((product, index) => (
+         
+          { isLoading ? ( < Loading />) :(  productList.map((product, index) => (
             <Product key={index} data={product} />
-          ))}
+          )) )}
         </div>
       </div>
       <FeatureArea />
