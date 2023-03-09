@@ -12,7 +12,9 @@ const Shop = () => {
 
   useEffect(() => {
     getProductList();
-    setIsLoading(false);
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 1000);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []) 
 

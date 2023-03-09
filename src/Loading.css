@@ -11,6 +11,7 @@
   }
   .loader-container{
     width: 100vw;
+    height: 100vh;
     margin: 100px auto;
   }
   
